@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="countdown.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <h1 class="title">Countdown Timer</h1>
+    <div class="card">
+      <div id="countdown" class="countdown">0</div>
+      <input id="timeInput" type="number" min="1" placeholder="Enter a positive time in seconds. The custom is 10 seconds." />
+      <div class="button-group">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
