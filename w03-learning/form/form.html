@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+	<h1>Example Form Layout using CSS Grid</h1>
+<main>
+	<h3>Future Value</h3>
+	<div class="gridform">
+		<label for="principle">Principle: </label>
+		<input type="number" id="principle" required>
+    	<label for="cprinciple">Confirme Principle: </label>
+		<input type="number" id="cprinciple" required>
+		<label for="annualrate">Annual rate: </label>
+		<input type="number" id="annualrate" placeholder=".08" required>
+		<label for="years">Years:  </label>
+		<input type="number" id="years" required>
+		<label for="periods">Periods: </label>
+		<input type="number" id="periods" required>
+	</div>
+	<button onclick="doFV()">Compute Future Value</button>
+	<hr> Future Value: <span id="output"></span>
+</main>
+<footer>
+	&copy;<span id="theyear"></span> • Antonia Francesca • Utah • WDD</footer>
+</body>
+</html>
